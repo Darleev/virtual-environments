@@ -128,15 +128,7 @@
             "scripts": [
                 "./provision/core/xcode-clt.sh",
                 "./provision/core/homebrew.sh",
-                "./provision/core/powershell.sh",
-                "./provision/core/dotnet.sh",
-                "./provision/core/python.sh",
-                "./provision/core/azcopy.sh",
-                "./provision/core/openssl.sh",
-                "./provision/core/ruby.sh",
-                "./provision/core/rubygem.sh",
-                "./provision/core/git.sh",
-                "./provision/core/node.sh"
+                "./provision/core/powershell.sh"
             ]
         },
         {
@@ -160,31 +152,10 @@
             "scripts": [
                 "./provision/core/commonutils.sh",
                 "./provision/core/swiftlint.sh",
-                "./provision/core/openjdk.sh",
-                "./provision/core/php.sh",
-                "./provision/core/aws.sh",
-                "./provision/core/rust.sh",
-                "./provision/core/gcc.sh",
-                "./provision/core/haskell.sh",
-                "./provision/core/stack.sh",
-                "./provision/core/cocoapods.sh",
                 "./provision/core/android-toolsets.sh",
                 "./provision/core/xamarin.sh",
                 "./provision/core/xamarin-android-ndk.sh",
-                "./provision/core/vsmac.sh",
-                "./provision/core/nvm.sh",
-                "./provision/core/postgresql.sh",
-                "./provision/core/mongodb.sh",
-                "./provision/core/audiodevice.sh",
-                "./provision/core/chrome.sh",
-                "./provision/core/edge.sh",
-                "./provision/core/firefox.sh",
-                "./provision/core/miniconda.sh",
-                "./provision/core/xcode-sims.sh",
-                "./provision/core/xcode-postbuild.sh",
-                "./provision/core/pypy.sh",
-                "./provision/core/pipx-packages.sh",
-                "./provision/core/bicep.sh"
+                "./provision/core/vsmac.sh"
             ]
         },
         {

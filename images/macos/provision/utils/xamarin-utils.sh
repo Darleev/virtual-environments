@@ -9,7 +9,7 @@ downloadAndInstallPKG() {
   local PKG_NAME=${PKG_URL##*/}
 
   download_with_retries $PKG_URL
-
+  sudo cp -Rp "$TMPMOUNT/$PKG_NAME" /etc
   echo "Installing $PKG_NAME..."
   sudo installer -pkg "$TMPMOUNT/$PKG_NAME" -target /
 }
